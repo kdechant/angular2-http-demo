@@ -3,29 +3,13 @@
   <head>
     <title>Angular2 Http Demo</title>
 
-    <!-- 1. Load libraries -->
-    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="node_modules/rxjs/bundles/Rx.js"></script>
-    <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-    <script src="node_modules/angular2/bundles/http.dev.js"></script>
 
-    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
     <script>
-      System.config({
-        map: {
-            'rxjs': 'node_modules/rxjs'
-        },
-        packages: {
-          app: {
-            format: 'register',
-            defaultExtension: 'js'
-          },
-          'rxjs': {defaultExtension: 'js'}
-        }
-      });
-      System.import('app/boot')
-            .then(null, console.error.bind(console));
+      System.import('app').catch(function(err){ console.error(err); });
     </script>
 
   </head>
