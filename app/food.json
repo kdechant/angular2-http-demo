@@ -1,5 +1,5 @@
 [
-  { "name": "Donuts" },
-  { "name": "Pizza" },
-  { "name": "Sushi" }
+  { "id": 1, "name": "Donuts" },
+  { "id": 2, "name": "Pizza" },
+  { "id": 3, "name": "Sushi" }
 ]
