@@ -32,7 +32,6 @@
     "lite-server": "^2.2.2",
     "typescript": "^2.0.3",
     "typings": "^1.4.0",
-
     "canonical-path": "0.0.2",
     "http-server": "^0.9.0",
     "lodash": "^4.16.2"
