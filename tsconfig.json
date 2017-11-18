@@ -7,10 +7,15 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": true
+    "noImplicitAny": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "core-js"
+    ]
   },
   "exclude": [
-    "node_modules",
-    "typings"
+    "node_modules"
   ]
 }

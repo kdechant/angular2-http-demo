@@ -39,9 +39,11 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      'angular-in-memory-web-api': {
-        main: './index.js',
-        defaultExtension: 'js'
+      // the following is needed to work around a bug in RxJs v5.5.2:
+      // https://github.com/ReactiveX/rxjs/issues/2971
+      "rxjs/operators": {
+        "main": "index.js",
+        "defaultExtension": "js"
       }
     }
   });
