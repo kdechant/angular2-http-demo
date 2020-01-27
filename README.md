@@ -1,3 +1,13 @@
+# Note: This project is archived
+
+This project is for an older version of Angular and is kept here for reference only. **It will receive no further support or upgrades.**
+
+For a newer version, see https://github.com/kdechant/angular5-httpclient-demo
+
+---
+
+Legacy README, for reference only:
+
 # Angular 2/4 HTTP Client Demo App
 
 This is a demo application showing how to use the Http service and Observables in Angular 2/4.
